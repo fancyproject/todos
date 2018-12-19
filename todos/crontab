@@ -1,0 +1,1 @@
+0 15 * * *  cd /var/www/todos && php artisan receive:todos >> /dev/null 2>&1
